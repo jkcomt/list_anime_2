@@ -1,0 +1,208 @@
+{
+    "id": "12",
+    "type": "anime",
+    "links": {
+        "self": "/anime/12"
+    },
+    "attributes": {
+        "createdAt": "2013-02-20T16:00:25.722Z",
+        "updatedAt": "2019-08-22T23:39:10.737Z",
+        "slug": "one-piece",
+        "synopsis": "Gol D. Roger was known as the \"Pirate King,\" the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King.\r\nEnter Monkey D. Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy’s reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece.\r\n[Written by MAL Rewrite]",
+        "coverImageTopOffset": 50,
+        "titles": {
+            "en": "One Piece",
+            "en_jp": "One Piece",
+            "ja_jp": "ONE PIECE"
+        },
+        "canonicalTitle": "One Piece",
+        "abbreviatedTitles": [],
+        "averageRating": "83.42",
+        "ratingFrequencies": {
+            "2": "2652",
+            "3": "51",
+            "4": "317",
+            "5": "39",
+            "6": "274",
+            "7": "41",
+            "8": "3147",
+            "9": "70",
+            "10": "910",
+            "11": "85",
+            "12": "1806",
+            "13": "146",
+            "14": "8035",
+            "15": "294",
+            "16": "4545",
+            "17": "461",
+            "18": "4384",
+            "19": "403",
+            "20": "33605"
+        },
+        "userCount": 112804,
+        "favoritesCount": 5041,
+        "startDate": "1999-10-20",
+        "endDate": null,
+        "nextRelease": "2019-08-25T09:30:00.000+09:00",
+        "popularityRank": 15,
+        "ratingRank": 22,
+        "ageRating": "PG",
+        "ageRatingGuide": "Teens 13 or older",
+        "subtype": "TV",
+        "status": "current",
+        "tba": "",
+        "posterImage": {
+            "tiny": "https://media.kitsu.io/anime/poster_images/12/tiny.jpg?1490541434",
+            "small": "https://media.kitsu.io/anime/poster_images/12/small.jpg?1490541434",
+            "medium": "https://media.kitsu.io/anime/poster_images/12/medium.jpg?1490541434",
+            "large": "https://media.kitsu.io/anime/poster_images/12/large.jpg?1490541434",
+            "original": "https://media.kitsu.io/anime/poster_images/12/original.png?1490541434",
+            "meta": {
+                "dimensions": {
+                    "tiny": {
+                        "width": null,
+                        "height": null
+                    },
+                    "small": {
+                        "width": null,
+                        "height": null
+                    },
+                    "medium": {
+                        "width": null,
+                        "height": null
+                    },
+                    "large": {
+                        "width": null,
+                        "height": null
+                    }
+                }
+            }
+        },
+        "coverImage": {
+            "tiny": "https://media.kitsu.io/anime/cover_images/12/small.jpg",
+            "small": "https://media.kitsu.io/anime/cover_images/12/small.jpg",
+            "large": "https://media.kitsu.io/anime/cover_images/12/small.jpg",
+            "original": "https://media.kitsu.io/anime/cover_images/12/original.jpg",
+            "meta": {
+                "dimensions": {
+                    "tiny": {
+                        "width": 840,
+                        "height": 200
+                    },
+                    "small": {
+                        "width": 1680,
+                        "height": 400
+                    },
+                    "large": {
+                        "width": 3360,
+                        "height": 800
+                    }
+                }
+            }
+        },
+        "episodeCount": null,
+        "episodeLength": 24,
+        "totalLength": 888,
+        "youtubeVideoId": "um-tFlVamOI",
+        "showType": "TV",
+        "nsfw": false
+    },
+    "relationships": {
+        "genres": {
+            "links": {
+                "self": "/anime/12/relationships/genres",
+                "related": "/anime/12/genres"
+            }
+        },
+        "categories": {
+            "links": {
+                "self": "/anime/12/relationships/categories",
+                "related": "/anime/12/categories"
+            }
+        },
+        "castings": {
+            "links": {
+                "self": "/anime/12/relationships/castings",
+                "related": "/anime/12/castings"
+            }
+        },
+        "installments": {
+            "links": {
+                "self": "/anime/12/relationships/installments",
+                "related": "/anime/12/installments"
+            }
+        },
+        "mappings": {
+            "links": {
+                "self": "/anime/12/relationships/mappings",
+                "related": "/anime/12/mappings"
+            }
+        },
+        "reviews": {
+            "links": {
+                "self": "/anime/12/relationships/reviews",
+                "related": "/anime/12/reviews"
+            }
+        },
+        "mediaRelationships": {
+            "links": {
+                "self": "/anime/12/relationships/media-relationships",
+                "related": "/anime/12/media-relationships"
+            }
+        },
+        "characters": {
+            "links": {
+                "self": "/anime/12/relationships/characters",
+                "related": "/anime/12/characters"
+            }
+        },
+        "staff": {
+            "links": {
+                "self": "/anime/12/relationships/staff",
+                "related": "/anime/12/staff"
+            }
+        },
+        "productions": {
+            "links": {
+                "self": "/anime/12/relationships/productions",
+                "related": "/anime/12/productions"
+            }
+        },
+        "quotes": {
+            "links": {
+                "self": "/anime/12/relationships/quotes",
+                "related": "/anime/12/quotes"
+            }
+        },
+        "episodes": {
+            "links": {
+                "self": "/anime/12/relationships/episodes",
+                "related": "/anime/12/episodes"
+            }
+        },
+        "streamingLinks": {
+            "links": {
+                "self": "/anime/12/relationships/streaming-links",
+                "related": "/anime/12/streaming-links"
+            }
+        },
+        "animeProductions": {
+            "links": {
+                "self": "/anime/12/relationships/anime-productions",
+                "related": "/anime/12/anime-productions"
+            }
+        },
+        "animeCharacters": {
+            "links": {
+                "self": "/anime/12/relationships/anime-characters",
+                "related": "/anime/12/anime-characters"
+            }
+        },
+        "animeStaff": {
+            "links": {
+                "self": "/anime/12/relationships/anime-staff",
+                "related": "/anime/12/anime-staff"
+            }
+        }
+    }
+}
