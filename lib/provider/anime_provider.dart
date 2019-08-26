@@ -3,21 +3,25 @@ import 'package:flutter_anime_list/data/anime.dart';
 import 'package:http/http.dart' as http;
 
 class AnimeProvider {
-  void getAnime() async {
+  Future<List<Anime>> getAnime() async {
     // This example uses the Google Books API to search for books about http.
     // https://developers.google.com/books/docs/overview
-    var url = "https://kitsu.io/api/edge/trending/anime";
-
+    final uri = Uri.https("kitsu.io", "/api/edge/trending/anime",{"limit" : "20"});
+    //var url = "https://kitsu.io/api/edge/trending/anime";
+    List<Anime>animeList;
     // Await the http get response, then decode the json-formatted responce.
-    var response = await http.get(url);
+    var response = await http.get(uri);
     if (response.statusCode == 200) {
-      var jsonResponse = convert.jsonDecode(response.body);
-      var list = jsonResponse['data'] as List;
-      var animeList = AnimeList.fromJson(list);
-      
-      print(animeList);
+      final jsonResponse = convert.jsonDecode(response.body);
+      final list = jsonResponse['data'] as List;
+      animeList = AnimeList.fromJson(list).animelist;
     } else {
-      print("Request failed with status: ${response.statusCode}.");
+       //print("Request failed with status: ${response.statusCode}.");
+       animeList = List();
     }
+
+    return animeList;
+    
+    
   }
 }

@@ -33,7 +33,7 @@ class Anime {
         this.links = AnimeLinks.fromJson(json['links']);
         this.attributes = Attributes.fromJson(json['attributes']);
         //this.relationships = Map.of(json['relationships']);
-        this.relationships = Map.castFrom<String, dynamic,String,Relationship>(json['relationships']);
+        //this.relationships = json.map((i) => Relationship.fromJson(i));
 
     }
 }
@@ -156,12 +156,14 @@ class CoverImage {
 
 
     CoverImage.fromJson(Map<String, dynamic> json){
-
-      this.tiny = json['tiny'];
-      this.small = json['small'];
-      this.large = json['large'];
-      this.original = json['original'];
-      this.meta = CoverImageMeta.fromJson(json['meta']);
+      if(json != null){
+        this.tiny = json['tiny'];
+        this.small = json['small'];
+        this.large = json['large'];
+        this.original = json['original'];
+        this.meta = CoverImageMeta.fromJson(json['meta']);
+      }
+      
 
     }
 }
