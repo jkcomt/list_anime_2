@@ -10,19 +10,21 @@ class MyAnimeHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
         title: Text("Anime List"),
       ),
-      body: Container(
+      body: Container(        
+        // margin: EdgeInsets.only(top: 15.0),
         child: animeList(),
       ),
     );
   }
 
   Widget animeList() {
-    AnimeProvider().getAnime();
+    //AnimeProvider().getAnime();
     return FutureBuilder(
       future: animeProvider.getAnime(),
       builder: (BuildContext context, AsyncSnapshot<List> snapshot){
@@ -31,9 +33,8 @@ class MyAnimeHome extends StatelessWidget {
             children: _listaAnime(snapshot.data,context),
           );
         }else {
-          print('none');
           return Container(            
-              height: 400.0, child: Center(child: CircularProgressIndicator()));
+               child: Center(child: CircularProgressIndicator()));
         }
       },
     );
